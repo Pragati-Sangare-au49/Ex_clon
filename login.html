@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <script src="./login.js" defer></script>
+    <style>
+           
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-repeat: no-repeat;
+  background: position 100px;
+  background-size: cover;
+}  
+button {   
+       background-color:#5dcc59;   
+       width: 60%;  
+        color: black;   
+        padding: 15px;   
+        margin: 30px 0px;   
+        border: none;   
+        cursor: pointer; 
+        font-size: 15px;
+        margin-left: 25%; 
+        margin-bottom: 0%; 
+         }   
+ form {   
+        border: 3px  #ca0f0f;   
+    }   
+label{
+    color: rgb(3, 3, 5);
+    font-weight: bold;
+    margin-left: 20%;
+}
+ input[type=text], input[type=password] {   
+        width: 50%;   
+        margin: 8px 0;  
+        padding: 10px 5px;   
+        display: inline-block;   
+        border: 2px solid rgb(184, 170, 215);   
+        box-sizing: border-box;   
+    }  
+    input[type=checkbox] {
+        margin-left: 30%;
+        margin-top: 0%;
+        color: lightpink;
+    }
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+        background-color: #ff6666;
+        margin-left: 30%;
+        margin-top: 5%;
+    }   
+    h1{
+        color: rgb(1, 11, 5);
+        text-shadow: 3px 3px red;
+        font-size: 90px;
+        margin-bottom: 0px;
+    }
+        
+    legend{
+        font-weight: bolder;
+        color: red;
+        height: 10px;
+    } 
+ .container {  
+        margin-top: 3%; 
+        margin-left: 60%; 
+    } 
+    a{
+        color:#4d94ff;
+    }  
+    .Lbl{
+        color:white;
+    }
+    h2{
+        margin-left: 68%;
+        margin-right: 15%;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        text-shadow: 2px 2px white;
+    }
+    </style>
+</head>
+<body background="C:\Users\Pragati Maske\Desktop\carRate\carrate1.jpg">    
+    <center><h1>Welcome To CarRate.com</h1></center>   
+    <form>  
+        <h2>Please Login to Continue</h2>
+        <div class="container">  
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  <br>
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  <br>
+            <button type="submit" id="log">Login</button>   <br>
+            <input type="checkbox" checked="checked"> Remember me   <br>
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            <label class="Lbl">New User? <a href="C:\Users\Pragati Maske\Desktop\carRate\signup.html"> Sign Up </a> </label>  
+            </fieldset>
+        </div> 
+    </form>     
+</body>     
+</html>

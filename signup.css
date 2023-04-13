@@ -1,0 +1,38 @@
+body{
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background: position 100px;
+    background-size: cover;
+}
+form{
+    position: fixed;
+    right: 40%;
+}
+input{
+    width: 300px;
+    height: 25px;
+}
+fieldset{
+    margin-bottom: 20px;
+}
+.btngrp{
+    position: fixed;
+    left: 40%;
+}
+#btngrp1{
+    background-color: coral;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+}   
+#btngrp2{
+    background-color: rgb(204, 246, 39);
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+} 
+button:hover{
+    opacity: 0.7;
+}    
